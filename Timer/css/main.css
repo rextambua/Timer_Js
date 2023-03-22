@@ -2,6 +2,11 @@ body {
     background: #dddddd;
     margin: 24px;
     align-content: center;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .timer {
@@ -9,7 +14,8 @@ body {
     display: inline-block;
     padding: 50px 60px;
     border-radius: 30px;
-    background: white;
+    background: rgba(231, 192, 192, 0.84);
+    box-shadow: 10px 10px lightblue;
 }
 
 .timer__part {
@@ -17,6 +23,11 @@ body {
     font-weight: bold;
 }
 
+#input{
+    display: block;
+    margin-bottom: 5px;
+    width: 100%;
+}
 .timer__btn {
     width: 50px;
     height: 50px;
@@ -27,6 +38,8 @@ body {
     background: #8208e6;
     cursor: pointer;
 }
+.time{
+    margin-bottom: 40px;}
 
 .timer__btn--start {
     background: #00084c;
